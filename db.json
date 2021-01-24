@@ -22,7 +22,7 @@
         "companyID":"3"
     }
 ],
-"companies":[
+"companies":
     [
         {
             "id": "1",
@@ -39,5 +39,5 @@
             "companyName": "Google"
         }
     ]
-]
+
 }

@@ -1,0 +1,23 @@
+GET ALL USERS
+
+http://localhost:3000/users
+
+GET SINGLE USER
+
+http://localhost:3000/users/1
+
+GET ALL COMPANIES
+
+http://localhost:3000/companies
+
+GET SINGLE COMPANY
+
+http://localhost:3000/companies/1
+
+GET ALL USERS OF A COMPANY
+
+http://localhost:3000/companies/1/users
+
+FILTER COMPANIES BY NAME
+
+http://localhost:3000/companies?name=Microsoft http://localhost:3000/companies?name=Microsoft&name=Apple
