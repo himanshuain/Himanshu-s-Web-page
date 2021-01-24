@@ -1,3 +1,13 @@
+For running the json Local server
+command :  npm run json:server
+
+For running the json remote server
+command :  npm run json:server:remote
+
+
+These are some operation, that can be performed by call the respective Mock API.
+
+
 GET ALL USERS
 
 http://localhost:3000/users
@@ -20,4 +30,22 @@ http://localhost:3000/companies/1/users
 
 FILTER COMPANIES BY NAME
 
-http://localhost:3000/companies?name=Microsoft http://localhost:3000/companies?name=Microsoft&name=Apple
+http://localhost:3000/companies?name=Netflix http://localhost:3000/companies?name=Netflix&name=Apple
+
+PAGINATION & LIMIT
+
+http://localhost: 3000/companies?_page=1&_limit=2
+
+SORTING
+
+http://localhost:3000/companies?_sort=name&_order=asc
+
+USERS AGE RANGE
+
+http://localhost:3000/users?age_gte=30
+
+http://localhost:3000/users?age_gte=30&age_lte=40
+
+FULL TEXT SEARCH
+
+http://localhost:3000/users?q=John
